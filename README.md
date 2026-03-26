@@ -9,3 +9,4 @@ The `map` parameters expects the following values:
 
 ## FUNCTIONS
 * parseLength(value, map) - parses a value (e.g. '4m') to view pixels at the current zoom level.
+* metersPerPixel() - calculates the 'metersPerPixel' value for the current global map object
