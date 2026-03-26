@@ -1,0 +1,19 @@
+{
+  "name": "@geowiki-net/geowiki-lib-geo-functions",
+  "version": "0.0.0",
+  "description": "Various geometry functions which are used by several modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geowiki-net/geowiki-lib-geo-functions.git"
+  },
+  "author": "Stephan Bösch-Plepelits <skunk@xover.mud.at>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/geowiki-net/geowiki-lib-geo-functions/issues"
+  },
+  "homepage": "https://github.com/geowiki-net/geowiki-lib-geo-functions#readme"
+}
