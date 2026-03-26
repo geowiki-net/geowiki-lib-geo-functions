@@ -1,4 +1,4 @@
-module.exports = function parseLength (value, metersPerPixel) {
+module.exports = function parseLength (value, map) {
   const m = ('' + value).trim().match(/^([+-]?[0-9]+(?:\.[0-9]+)?)\s*(px|m|%)$/)
 
   if (m) {
@@ -6,7 +6,7 @@ module.exports = function parseLength (value, metersPerPixel) {
       case '%':
         return value
       case 'm':
-        return parseFloat(m[1]) / metersPerPixel
+        return parseFloat(m[1]) / map.metersPerPixel
       case 'px':
       default:
         return parseFloat(m[1])
